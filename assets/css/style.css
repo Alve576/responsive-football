@@ -15,16 +15,6 @@ header{
     width: 100%;
 }
 
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    color: white;
-    font-size: 20px;
-    font-family: 'Poppins';
-}
-
-
 
 .main_container{
     position: relative;
@@ -37,7 +27,8 @@ nav ul{
 
 
 .elements{
-    top: 25%;
+    position: absolute;
+    top: -5%;
     left: 13%;
 }
 
@@ -68,6 +59,7 @@ nav ul{
     position: relative;
     width: 557px;
     height: 438px;
+    margin-left: 41%;
 }
 
 .img-responsive img{
@@ -92,8 +84,45 @@ nav ul{
     color: black;
 }
 
+/* header style Media Quary*************//************header style Media Quary*************//************header style Media Quary*************//************ */
+
+
+
+
+@media screen and (max-width: 480px) {
+    header{
+        height: 695px;
+    }
+    .elements{
+        margin-top: -30%;
+    }
+    
+    .elements h2{
+        font-size: 36px;
+    }
+
+
+    .img-responsive{
+        position: relative;
+        width: 329px;
+        height: 259px;
+        margin-left: 5%;
+        margin-top: 42%;
+    }
+
+}
+
+
 
 /* *********************************************Header styling End************End*******************Header styling******************Header styling */
+
+
+
+
+
+
+
+
 
 
 
@@ -144,15 +173,124 @@ nav ul{
 }
 
 
+/* Sub Container Media Quary *******************************************Sub Container****************************Sub Container**********************************/
+
+@media screen and (max-width: 480px){
+    .sub-section{
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 0;
+    }
+    .sub_container{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 10px;
+    }
+}
+
+
+/* Sub Container style End*******************************************Sub Container****************************Sub Container**********************************/
+
+
+
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+/* highlights****************highlights****************highlights****************highlights****************highlights****************highlights**************** */
+
+
+
+.highlight{
+    
+    margin-top: 207%;
+    height: 427px;
+    margin-left: 174px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 1137px;    
+    
+}
+
+.hightlight-elements{
+    font-family: Poppins;
+    width: 450px;
+}
+
+.img-hightlight {
+    width: 567px;
+    height: 427px;
+    margin-left: 34%;
+}
+
+
+.img-hightlight img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px){
+    .highlight{
+        position: absolute;
+        top: 500vh;
+        left: -76px;
+        height: 427px;
+        align-items: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;    
+        
+    }
+    .hightlight-elements{
+        font-family: Poppins;
+        width: 370px;
+    }
+    .img-hightlight {
+        width: 328px;
+        height: 248px;
+        margin-left: -16%;
+        margin-top: 20px;
+
+    }
+}
+
+
+
+/* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
+/* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
+/* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
+/* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
+/* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
+/* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
+/* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
 
 
 
 
 
+
+
+/* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
+/* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
+/* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
+/* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
+/* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
+/* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
+/* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
 
 footer{
     position: relative;
-    margin-top: 201%;
+    margin-top: 11%;
     width: 400px;
     height: 211px;
     margin-left: 37%;
@@ -164,7 +302,7 @@ footer{
 
 .brands{
     position: absolute;
-    width: 262px;
+    width: 375px;
     height: 110px;
 }
 
@@ -183,5 +321,75 @@ footer{
 
 .logo{
     width: 30px;
+    margin-left: 20px;
     margin-top: 150px;
 }
+
+.brands p{
+margin-left: 28px;
+}
+
+
+@media screen and (max-width: 480px){
+    footer{
+        position: relative;
+    margin-top: 516vh;
+    width: 400px;
+    height: 211px;
+    margin-left: 6%;
+    text-align: center;
+    font-family: Poppins;        
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
