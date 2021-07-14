@@ -276,6 +276,79 @@ header{
 /* highlights****************highlights********ENd********highlights*****End***********highlights****************highlights****************highlights**************** */
 
 
+.counter_section{
+     background-image: url('/assets/images/extra_sec.jpg');
+     height: 322px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    top: 557vh;
+    opacity: 0.89;
+    display: flex;
+    color: #E02C6D;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter_section h2{
+    font-size: 56px;
+    font-family: Poppins;
+}
+
+.counter_section span{
+    color: brown;
+}
+
+.flexble{
+    margin-left: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 680px){
+.counter_section{
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 523vh;
+}
+
+.flexble{
+    margin-left: 3px;
+    
+}
+
+.counter_section h2{
+    margin-left: 43px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+}
+/* recent_championrecent_championrecent_championrecent_champion***************************recent_championrecent_championrecent_champion */
+
+
+
+.recent_champion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1227px;
+    margin-left: 172px;
+    margin-top: 4%;
+}
+
+
+
+.cham_info{
+    width: 300px;
+    height: 524px;
+    box-shadow: 0 0 40px rgb(0 0 0);
+    text-align: center;
+    font-family: Poppins;
+
+}
+
+
+
 
 
 
@@ -291,7 +364,7 @@ header{
 
 footer{
     position: relative;
-    margin-top: 11%;
+    margin-top: 61%;
     width: 400px;
     height: 211px;
     margin-left: 37%;
