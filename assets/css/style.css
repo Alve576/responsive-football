@@ -1,12 +1,93 @@
-body{
-  background-color: blueviolet;
+/* Google Fonts************************************************************************ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+
+/* *********************************************Header styling*******************************Header styling******************Header styling */
+
+header{
+    background-color: #2D25A0;
+    height: 98vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins';
 }
 
 
-h1{
-    color: cadetblue;
+
+.main_container{
+    position: relative;
+    width: 100%;
+    height: 64%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 372px;
 }
 
-p{
-    color: chocolate;
+
+.elements{
+    top: 25%;
+    left: 13%;
+}
+
+
+.elements h2{
+    color: white;
+    font-size: 64px;
+    font-family: Poppins;
+}
+
+.btn{
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    color: white;
+    font-family: Poppins;
+    padding: 10px 24px;
+    outline: none;
+    border: 2px solid #F62459; 
+    transition: 1s;
+}
+
+.btn .fas{
+    margin-left: 10px;
+}
+
+.img-responsive{
+    position: relative;
+    width: 557px;
+    height: 438px;
+}
+
+.img-responsive img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+
+.img-responsive img:hover{
+    width: 110%;
+    height: 110%;
+    transform: translateX(100px);
+
+}
+
+
+
+.btn:hover {
+    box-shadow: white 100px 0 0 2px inset;
+    color: black;
 }
