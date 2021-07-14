@@ -242,14 +242,15 @@ header{
 @media screen and (max-width: 680px){
     .highlight{
         position: absolute;
-        top: 960vh;
-        left: -120px;
+        top: 1496vh;
+        left: -124px;
         height: 427px;
         align-items: center;
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 300px;    
+        width: 300px;
+        
         
     }
     .hightlight-elements{
@@ -322,7 +323,7 @@ header{
         grid-template-columns: repeat(1,1fr);
         width: 273px;
         margin-left: 22px;
-        margin-top: 999vh;
+        margin-top: 919vh;
                
 
 }
@@ -343,7 +344,58 @@ header{
 }
 }
 
+/* score section*-******************score section*-******************score section*-******************score section*-******************score section*-****************** */
+/* score section*-******************score section*-******************score section*-******************score section*-******************score section*-****************** */
+/* score section*-******************score section*-******************score section*-******************score section*-******************score section*-****************** */
+/* score section*-******************score section*-******************score section*-******************score section*-******************score section*-****************** */
+/* score section*-******************score section*-******************score section*-******************score section*-******************score section*-****************** */
 
+.top_score
+{
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 100px;
+}
+
+.score_section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1210px;
+    margin-left: 130px;
+    margin-top: 10vh;
+    font-family: Poppins;
+}
+
+.score{
+    box-shadow: 0 0 40px rgb(0 0 0);
+    margin-left: 40px;
+    text-align: center;
+    width: 370px;
+}
+
+
+.score .thumbnail{
+    width: 370px;
+}
+
+.score .thumbnail img{
+    width: 100%;
+}
+
+@media screen and (max-width: 680px){
+    .score_section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: -39px;
+        margin-top: 10px;
+        width: 100%;
+       
+    }
+
+    .score{
+        margin-bottom: 100px;
+    }
+}
 /* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
 /* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
 /* fotter style******************** fotter style******************** fotter style******************** fotter style******************** fotter style******************** */
@@ -397,12 +449,12 @@ margin-left: 28px;
 @media screen and (max-width: 680px){
     footer{
         position: relative;
-    margin-top: 986vh;
-    width: 400px;
-    height: 211px;
-    margin-left: -4%;
-    text-align: center;
-    font-family: Poppins;        
+        margin-top: 83vh;
+        width: 400px;
+        height: 211px;
+        margin-left: -4%;
+        text-align: center;
+        font-family: Poppins;        
         
     }
 
