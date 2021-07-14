@@ -91,7 +91,8 @@ header{
 
 @media screen and (max-width: 680px) {
     header{
-        height: 695px;
+        height: 106vh;
+        width: 106%;
     }
     .elements{
         margin-top: -30%;
@@ -178,7 +179,7 @@ header{
 @media screen and (max-width: 680px){
     .sub-section{
         position: absolute;
-        top: 60%;
+        top: 110%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -241,8 +242,8 @@ header{
 @media screen and (max-width: 680px){
     .highlight{
         position: absolute;
-        top: 500vh;
-        left: -76px;
+        top: 960vh;
+        left: -120px;
         height: 427px;
         align-items: center;
         position: relative;
@@ -333,10 +334,10 @@ margin-left: 28px;
 @media screen and (max-width: 680px){
     footer{
         position: relative;
-    margin-top: 516vh;
+    margin-top: 986vh;
     width: 400px;
     height: 211px;
-    margin-left: 6%;
+    margin-left: -4%;
     text-align: center;
     font-family: Poppins;        
         
