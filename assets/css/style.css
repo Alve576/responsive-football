@@ -242,15 +242,14 @@ header{
 @media screen and (max-width: 680px){
     .highlight{
         position: absolute;
-        top: 1314vh;
-        left: -124px;
+        top: 872vh;
         height: 427px;
         align-items: center;
         position: relative;
         display: flex;
         flex-direction: column;
         width: 300px;
-        
+        width: 24%;
         
     }
     .hightlight-elements{
@@ -322,10 +321,9 @@ header{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 273px;
-        margin-left: 22px;
-        margin-top: 919vh;
-               
-
+        margin-left: 47px;
+        margin-top: 883vh;
+    
 }
 .cham_info{
     width: 259px;
@@ -386,8 +384,8 @@ header{
 @media screen and (max-width: 680px){
     .highlight_score{
         position: absolute;
-        top: 106vh;
-        left: -124px;
+        top: 3vh;
+        left: -95px;
         height: 427px;
         align-items: center;
         position: relative;
@@ -471,7 +469,7 @@ margin-left: 28px;
 @media screen and (max-width: 680px){
     footer{
         position: relative;
-        margin-top: 120vh;
+        margin-top: 9vh;
         width: 400px;
         height: 211px;
         margin-left: -4%;
